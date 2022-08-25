@@ -68,6 +68,11 @@
 
 }
 
+.body-center .body-column-card-left img{
+   border-radius: 10px;
+
+}
+
 .body-column-card-right-wrapper{
     margin: 15px;
     display: flex;
