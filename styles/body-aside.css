@@ -7,15 +7,20 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 5px;
+    justify-content: center;
+    /* border: 2px solid red; */
 }
 
 .body-aside-down{
     display: flex;
+    justify-content: center;
     margin-top: 5px;
+    /* border: 2px solid blue; */
+
 }
 
 .body-aside-img1{
-    background-image: url('https://odia.ig.com.br/_midias/jpg/2022/07/12/385x420/1_anitta_1655153645491_v2_900x506-25783737.jpg');
+    background-image: url('https://s2.glbimg.com/lkea6NVdXkIOvLbPoL0kHsbvgGY=/607x429/smart/e.glbimg.com/og/ed/f/original/2022/01/20/olazaroramos_272120050_237963341837484_6118793756484013377_n.webp.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -27,7 +32,7 @@
 
 
 .body-aside-img2{
-    background-image: url('https://akamai.sscdn.co/tb/letras-blog/wp-content/uploads/2022/06/bb1749c-joanna-1024x744.jpg');
+    background-image: url('https://uploads.metropoles.com/wp-content/uploads/2022/01/31124829/272719919_1204382153635417_4719453506574718779_n.webp_-600x400.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -39,7 +44,7 @@
 }
 
 .body-aside-img3{
-    background-image: url('https://miro.medium.com/max/1024/1*PIpDmgjLtl2_6cRe-pT4Rw.jpeg');
+    background-image: url('https://s2.glbimg.com/lkea6NVdXkIOvLbPoL0kHsbvgGY=/607x429/smart/e.glbimg.com/og/ed/f/original/2022/01/20/olazaroramos_272120050_237963341837484_6118793756484013377_n.webp.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
