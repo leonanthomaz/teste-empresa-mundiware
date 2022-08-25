@@ -58,19 +58,16 @@ header input:focus{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 .header-weather-left{
-    width: 80px;
     display: flex;
     justify-content: center;
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .header-weather-icon{
-    font-size: 28px;
-    color: black;
     margin-top: 10px;
  }
 
