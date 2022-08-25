@@ -93,27 +93,27 @@ header input:focus{
 }
 
 .header-weather-right .min{
-    color: red;
+    color: #ff0000;
     font-size: 12px;
     margin: 5px;
 
 }
 
 .header-weather-right .min .graus-min{
-    color: red;
+    color: #ff0000;
     font-size: 16px;
 
 }
 
 .header-weather-right .max{
-    color: blue;
+    color: #0000ff;
     font-size: 12px;
     margin: 5px;
 
 }
 
 .header-weather-right .max .graus-max{
-    color: blue;
+    color: #0000ff;
     font-size: 16px;
 }
 
@@ -127,7 +127,7 @@ header .header-bell .ball-red{
     border-radius: 50%;
     width: 8px;
     height: 8px;
-    background: red;
+    background: #ff0000;
     position: absolute;
     top: 32px;
     margin-left: 14px;
