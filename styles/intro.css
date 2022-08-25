@@ -33,7 +33,6 @@
 
 
 .intro-right-wrapper{
-    /* border: 2px solid red; */
     display: flex;
 }
 
@@ -55,7 +54,6 @@
 }
 
 .intro-right-carrossel{
-    /* border: 2px solid yellow; */
     max-width: 350px;
     height: 280px;
     background: #c72143;

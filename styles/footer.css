@@ -12,11 +12,6 @@ footer{
     padding: 10px;
 }
 
-.footer-center{
-    /* margin-left: 70px; */
-}
-
-
 footer a{
     margin: 10px;
     transition: all ease 0.5s;

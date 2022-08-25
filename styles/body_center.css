@@ -44,14 +44,6 @@
     padding: 10px;
 }
 
-/* .body-column-card-left-reverse img{
-    width: 80%;
-} */
-
-.body-column-card-carrossel{
-    /* border: 2px solid yellow; */
-}
-
 .body-center .body-column-card{
     display: flex;
     flex-direction: row;
