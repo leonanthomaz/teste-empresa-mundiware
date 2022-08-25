@@ -22,3 +22,7 @@ footer a:hover{
     transition: all ease 0.5s;
     color: yellow;
 }
+
+.footer-center{
+    margin-left: 80px;
+}

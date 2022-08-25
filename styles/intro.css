@@ -7,7 +7,6 @@
     color: #d317c3;
     padding-bottom: 15px;
     border-bottom: 1px solid #cecece;
-
 }
 
 .intro-left{
@@ -50,6 +49,14 @@
 
 .intro-right-card h2{
     font-size: 20px;
+}
+
+.intro-right-card-span1{
+    color: #008000;
+}
+
+.intro-right-card-span2{
+    color: #ffa500;
 }
 
 .intro-right-carrossel{

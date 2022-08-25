@@ -13,6 +13,10 @@ header .header-left, .header-center, .header-right{
     align-items: center;
 }
 
+.header-center{
+    margin-right: 70px;
+}
+
 header .header-left-icon{
     display: flex;
     flex-direction: row;
