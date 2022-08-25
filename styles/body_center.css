@@ -32,10 +32,6 @@
     flex-direction: column;
 }
 
-.body-column-card img{
-   width: 85%;
-}
-
 .body-column-card-reverse{
     /* border: 2px solid red; */
     display: flex;
