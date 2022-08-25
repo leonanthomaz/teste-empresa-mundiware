@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+h1{
+ color: #141414;
+}
+
+
+nav{
+    margin-left: 10px;
+}
+
+.topbar{    
+    margin: 10px;
+}
+
+

@@ -1,0 +1,148 @@
+.body-center{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+    border-top: 1px solid #cecece;
+    padding-top: 20px;
+}
+
+.body-column{
+    flex: 3.5;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.body-column-reverse{
+    flex: 3.5;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 5px;
+}
+
+
+.body-column-card{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.body-column-card img{
+   width: 85%;
+}
+
+.body-column-card-reverse{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row-reverse;
+    font-size:80%;
+    padding: 10px;
+}
+
+/* .body-column-card-left-reverse img{
+    width: 80%;
+} */
+
+.body-column-card-carrossel{
+    /* border: 2px solid yellow; */
+}
+
+.body-center .body-column-card{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: auto;
+}
+
+.body-center .body-column-card img{
+    border-radius: 10px;
+}
+ 
+ .body-center .body-column-card span{
+    color: purple;
+}
+
+/**/
+.body-center .body-column-card-right{
+    width: auto; 
+    flex: 2;
+}
+
+.body-center .body-column-card-left{
+    width: auto; 
+    /* border: 2px solid red;  */
+    flex: 1.5;
+
+}
+
+.body-column-card-right-wrapper{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-center .body-column-card-right-wrapper-title{
+    color: purple;
+    font-weight: 900;
+}
+.body-center .body-column-card-right-wrapper-body{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.body-center .body-column-card-right-wrapper-footer{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+/**/
+.body-center .body-column-card-carrossel{
+    background-image: url('https://cdn.falauniversidades.com.br/wp-content/uploads/2018/03/fala-universidades-netflix-3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+}
+
+.body-column-card-carrossel-footer{
+    position: absolute;
+    bottom: 0;
+    background: #8c8cff;
+    width: 100%;
+    height: 100px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px;
+}
+
+.body-column-card-carrossel h3{
+    color: white;
+    margin-top: 7px;
+}
+
+.body-column-card-carrossel-btn{
+    float: right;
+    margin-right: 20px;
+}
+
+.body-column-card-carrossel-btn button{
+    color: white;
+    width: 30px;
+    margin: 7px;
+}
+
+
+
+

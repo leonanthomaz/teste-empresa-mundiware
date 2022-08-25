@@ -1,0 +1,29 @@
+footer{
+    bottom: 0;
+    width: 100%;
+    background: rgb(75, 75, 75);
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 15px;
+    padding: 10px;
+}
+
+.footer-center{
+    /* margin-left: 70px; */
+}
+
+
+footer a{
+    margin: 10px;
+    transition: all ease 0.5s;
+    color: white
+}
+
+footer a:hover{
+    transition: all ease 0.5s;
+    color: yellow;
+}

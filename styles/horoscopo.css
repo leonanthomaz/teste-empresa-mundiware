@@ -1,0 +1,91 @@
+
+
+
+.info{
+    /* border: 2px solid red; */
+    display: block;
+    padding: 10px;
+}
+
+
+.info-up{
+    /* border: 2px solid red; */
+    margin: 5px;
+
+}
+
+.horoscopo{
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    text-align: center;
+    padding: 20px;
+}
+
+.info-down{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin: 5px;
+
+}
+
+.bolsa{
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);    
+    text-align: center;
+    padding: 20px;
+}
+
+.bolsa-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.bolsa-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align:right;
+    margin-top: 20px;
+    /* font-size: 14px; */
+}
+
+.bolsa-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align:left;
+    margin-top: 20px;
+    /* font-size: 14px; */
+    margin-left: 5px;
+}
+
+.mega{
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    text-align: center;
+    padding: 20px;
+}
+
+.mega-grid{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    gap: 1px;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.mega-item{
+    border: 2px solid green;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.mega-number{
+    margin-top: 8px;
+    color: green;
+}

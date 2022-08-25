@@ -1,0 +1,82 @@
+.body-aside{
+    flex: 2.5;
+    padding: 10px;
+}
+
+.body-aside-up{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+
+.body-aside-down{
+    display: flex;
+    margin-top: 5px;
+}
+
+.body-aside-img1{
+    background-image: url('http://s2.glbimg.com/PSLDqKa0rPTkfRkIrME-pqUA3OY=/g.glbimg.com/og/gs/gsat3/f/original/2017/11/29/iza.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 230px;
+    height: 300px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.body-aside-img2{
+    background-image: url('https://akamai.sscdn.co/tb/letras-blog/wp-content/uploads/2022/06/bb1749c-joanna-1024x744.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 230px;
+    height: 300px;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.body-aside-img3{
+    background-image: url('https://miro.medium.com/max/1024/1*PIpDmgjLtl2_6cRe-pT4Rw.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 470px;
+    height: 300px;
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+
+}
+
+/**/
+/* .body-aside-down-img{
+    width: 200px;
+} */
+
+
+.body-aside-text{
+    margin-top: 88%;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.body-aside-text h4{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.body-aside-text-3{
+    /* background: rgba(128, 128, 128, 0.699); */
+    /* border: 2px solid red; */
+    margin-top: 43%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.body-aside-text-3 h4{
+    padding-bottom: 10px;
+}

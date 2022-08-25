@@ -1,0 +1,153 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 20px;
+}
+
+header .header-left, .header-center, .header-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-center img{
+    width: 65px;
+}
+
+header .header-left-icon{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-left-icon span{
+    font-size: 14px;
+}
+
+
+header .header-left-icon .icon{
+   margin-right: 5px;
+   margin-top: 2px;
+}
+
+
+header input{
+    height: 35px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    box-shadow: 1px 1px 15px -3px rgba(0, 0, 0, 0.68);
+
+}
+
+header input::placeholder{
+    color: #b1b1b1;
+    text-align: center;
+    
+}
+
+header input:focus{
+    outline: none;
+}
+
+.header-weather{
+    line-height: 20px;
+    margin-right: 30px;
+}
+
+.header-weather-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: 40px;
+}
+
+.header-weather-left{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.header-weather-icon{
+    font-size: 28px;
+    color: black;
+    margin-top: 10px;
+ }
+
+.header-weather-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-weather-right-title{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.header-weather-right .header-weather-right-minmax{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.header-weather-right .min{
+    color: red;
+    font-size: 12px;
+    margin: 5px;
+
+}
+
+.header-weather-right .min .graus-min{
+    color: red;
+    font-size: 16px;
+
+}
+
+.header-weather-right .max{
+    color: blue;
+    font-size: 12px;
+    margin: 5px;
+
+}
+
+.header-weather-right .max .graus-max{
+    color: blue;
+    font-size: 16px;
+}
+
+
+header .header-bell{
+    font-size: 18px;
+    padding-right: 5px;
+}
+
+header .header-bell .ball-red{
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background: red;
+    position: absolute;
+    top: 32px;
+    margin-left: 14px;
+}
+
+
+header .header-right .arrow{
+    top: 30px;
+    margin-right: 8px;
+ }
+ 
+
+.header-right{
+    /* margin-right: 20px; */
+}
+ 
+ header .header-right .icon-user img{
+     border-radius: 50%;
+ }
+
