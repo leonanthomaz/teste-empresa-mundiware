@@ -10,9 +10,7 @@
 }
 
 .intro-left{
-    width: 100%;
-    height: 300px;
-    position: relative;
+    /* border: 2px solid red; */
 }
 
 .intro-left img{
@@ -22,7 +20,7 @@
 
 .intro .intro-right{
     display: grid;
-    grid-template-rows: 200px 200px;
+    grid-template-rows: auto auto;
     position: absolute;
     top: 35%;
     right: 0;
@@ -35,8 +33,8 @@
 }
 
 .intro-right-card{
-    width: 230px;
-    height: 300px;
+    max-width: 220px;
+    max-height: 220px;
     display: flex;
     flex-direction: column;
     padding: 10px;
