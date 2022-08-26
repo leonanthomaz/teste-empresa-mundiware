@@ -145,12 +145,12 @@
 
     /* ********************************* */
 
+    /* Intro Left */
+
     .intro-left{
         margin: auto;
-        margin-top: 20px;
     }
 
-    /* Intro Left */
     .intro-left img{
         width: 350px;
         height: 250px;
