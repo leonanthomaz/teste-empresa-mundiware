@@ -150,11 +150,17 @@
     .intro-left{
         margin: auto;
         margin-top: 20px;
+        width: 350px;
+        height: auto;
     }
 
-    .intro-left img{
+    /* .intro-left img{
         width: 350px;
         height: 250px;
+    } */
+
+    .intro-left img{
+        width: 100%;
     }
 
     .intro-right{
