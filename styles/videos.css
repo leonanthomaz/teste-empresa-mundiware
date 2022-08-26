@@ -6,14 +6,22 @@
 .title-videos{
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 30px;
     color: gray;
+}
+
+.title-videos::after{
+    content: "";
+    width: 80%;
+    height: 2px;
+    background: gray;
+    margin-top: 10px;
 }
 
 .title-videos span{
     flex: 1.5;
     max-width: 180px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .title-videos hr{
