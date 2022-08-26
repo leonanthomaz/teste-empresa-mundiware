@@ -30,6 +30,12 @@
     <link rel="stylesheet" type="text/css" href="./styles/info.css" />
     <link rel="stylesheet" type="text/css" href="./styles/responsivo.css" />
 
+    <!-- Link to the file hosted on your server, -->
+    <link rel="stylesheet" href="./css/splide.min.css">
+
+    <!-- or link to the CDN -->
+    <link rel="stylesheet" href="url-to-cdn/splide.min.css">
+
 </head>
 <body>
     <main>
@@ -132,15 +138,68 @@
             <div class="intro-right">
                 <div class="intro-right-carrossel">
                     <div class="intro-right-carrossel-wrapper">
-                        <span>Destaque</span>
-                        <h1>Lorem Ipsum is simply dummy text of the printing</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                        </p>
-                        <div class="intro-right-carrossel-wrapper-footer">
-                            <button class="btn-enable" aria-label="btn1"> </button>
-                            <button class="btn-desable" aria-label="btn2"> </button>
-                        </div>
+
+                        <section class="splide" aria-label="Splide Basic HTML Example">
+                            <div class="splide__track">
+                                  <ul class="splide__list">
+
+                                      <li class="splide__slide">
+                                        <span>Destaque</span>
+                                        <h1>Titulo do destaque principal</h1>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                        </p>
+                                        <div class="intro-right-carrossel-wrapper-footer">
+                                            <button class="btn-enable" aria-label="btn1"> </button>
+                                            <button class="btn-desable" aria-label="btn2"> </button>
+                                        </div>
+                                      </li>
+                                      <li class="splide__slide">
+                                        <span>Destaque2</span>
+                                        <h1>Lorem Ipsum is simply dummy text of the printing</h1>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                        </p>
+                                        <div class="intro-right-carrossel-wrapper-footer">
+                                            <button class="btn-enable" aria-label="btn1"> </button>
+                                            <button class="btn-desable" aria-label="btn2" id="slider1"> </button>
+                                        </div>
+                                      </li>
+                                      <li class="splide__slide">
+                                        <span>Destaque3</span>
+                                        <h1>Titulo do terceiro destaque</h1>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                        </p>
+                                        <div class="intro-right-carrossel-wrapper-footer">
+                                            <button class="btn-enable" aria-label="btn1"> </button>
+                                            <button class="btn-desable" aria-label="btn2"> </button>
+                                        </div>
+                                      </li>
+                                      
+                                  </ul>
+                            </div>
+                          </section>
+
+                          <script>
+                            document.addEventListener( 'DOMContentLoaded', function() {
+                              var splide = new Splide( '.splide' );
+                              splide.mount();
+                            } );
+
+                            new Splide( '#slider1' ).mount();
+
+                            new Splide( '#slider2' ).mount();
+
+                            new Splide( '#slider3' ).mount();
+
+
+                            var elms = document.getElementsByClassName( 'splide' );
+
+                            for ( var i = 0; i < elms.length; i++ ) {
+                            new Splide( elms[ i ] ).mount();
+                            }
+                          </script>
                     </div>
                 </div>
                 <div class="intro-right-card-wrapper">
@@ -707,5 +766,6 @@
             <a href="#">Imprensa</a>
         </div>
     </footer>
+    <script src="./js/splide.min.js"></script>
 </body>
 </html>
