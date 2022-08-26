@@ -9,7 +9,11 @@
 .intro-left{
     /* border: 3px solid red; */
     max-width: 500px;
-    /* display: flex; */
+}
+
+.intro-left img{
+    width: 500px;
+    height: 350px;
 }
 
 .intro-title h3{
