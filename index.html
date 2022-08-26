@@ -28,6 +28,7 @@
     <link rel="stylesheet" type="text/css" href="./styles/videos.css" />
     <link rel="stylesheet" type="text/css" href="./styles/horoscopo.css" />
     <link rel="stylesheet" type="text/css" href="./styles/info.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/responsivo.css" />
 
 </head>
 <body>
@@ -42,12 +43,15 @@
                     </div>
                     <span> menu</span>
                 </div>
+
+                 <!-- Header Input -->
+                <div class="header-input">
+                    <input placeholder="O que está buscando?" />
+                </div>
+
             </div>
 
-            <!-- Header Input -->
-            <div class="header-input">
-                <input placeholder="O que está buscando?" />
-            </div>
+           
 
             <!-- Header Centro -->
             <div class="header-center">
@@ -111,45 +115,44 @@
         
         <!-- Início da Intro -->
         <section>
+
+        <div class="intro-title">
+            <h3>Covid-19</h3>
+        </div>
         <div class="intro">
-            <div class="intro-title">
-                <h3>Covid-19</h3>
-            </div>
             <div class="intro-left">
-                <div class="intro-left-boximg">
-                    <img src="./img/site/carnaval.webp" 
-                    alt="imagem_intro" width="500" height="350"/>
-                </div>
+                <img src="./img/site/carnaval.webp" 
+                alt="imagem_intro" width="500" height="350"/>
             </div>
             <div class="intro-right">
-                <div class="intro-right-wrapper">
-                    <div class="intro-right-carrossel">
-                        <div class="intro-right-carrossel-wrapper">
-                            <span>Destaque</span>
-                            <h1>Lorem Ipsum is simply dummy text of the printing</h1>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                            </p>
-                            <div class="intro-right-carrossel-wrapper-footer">
-                                <button class="btn-enable" aria-label="btn1"> </button>
-                                <button class="btn-desable" aria-label="btn2"> </button>
-                            </div>
+                <div class="intro-right-carrossel">
+                    <div class="intro-right-carrossel-wrapper">
+                        <span>Destaque</span>
+                        <h1>Lorem Ipsum is simply dummy text of the printing</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        </p>
+                        <div class="intro-right-carrossel-wrapper-footer">
+                            <button class="btn-enable" aria-label="btn1"> </button>
+                            <button class="btn-desable" aria-label="btn2"> </button>
                         </div>
                     </div>
+                </div>
+                <div class="intro-right-card-wrapper">
                     <div class="intro-right-card">
-                        <img src="./img/site/neymar.webp" loading="lazy" alt="imagem_esportes" width="220" height="220" />
+                        <img src="./img/site/neymar.webp" loading="lazy" alt="imagem_esportes" width="200" height="200" />
                         <span class="intro-right-card-span1">Esportes</span>
                         <h2>Lorem Ipsum is simply dummy text of the printing</h2>
                     </div>
                     <div class="intro-right-card">
-                        <img src="./img/site/bolsonaro.webp" loading="lazy" alt="imagem_economia" width="220" height="220" />
+                        <img src="./img/site/bolsonaro.webp" loading="lazy" alt="imagem_economia" width="200" height="200" />
                         <span class="intro-right-card-span2">Economia</span>
                         <h2>Lorem Ipsum is simply dummy text of the printing</h2>
                     </div>
                 </div>
             </div>
-
         </div>
+
         </section>
         <!-- Fim da Intro -->
 
@@ -398,59 +401,56 @@
         <!-- Seção Videos -->
         <section>
             <div class="body-videos">
-                <div class="box-videos">
-
-                    <div class="box-videos-card">
-                        <div class="box-videos-minute" style="background: #5b5bb1;">
-                            3 min
-                            <!-- <i class="fa-solid fa-play"></i> -->
-                        </div>
-                        <img src="./img/site/Resize_ThePeak05.jpg.webp" loading="lazy" width="250" height="150" alt="noticia_neymar"  />
-                        <div class="box-videos-icon-play">
-                            <img src="./img/play-button-azul.svg" loading="lazy" alt="play" width="50" height="50" />
-                        </div>
-                        <h4 style="color: #5555bb;">Titulo</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                <div class="box-videos-card">
+                    <div class="box-videos-minute" style="background: #5b5bb1;">
+                        3 min
+                        <!-- <i class="fa-solid fa-play"></i> -->
                     </div>
+                    <img src="./img/site/Resize_ThePeak05.jpg.webp" loading="lazy" width="250" height="150" alt="noticia_neymar"  />
+                    <div class="box-videos-icon-play">
+                        <img src="./img/play-button-azul.svg" loading="lazy" alt="play" width="50" height="50" />
+                    </div>
+                    <h4 style="color: #5555bb;">Titulo</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
                 
-                    <div class="box-videos-card">
-                        <div class="box-videos-minute" style="background: purple;">
-                            3 min
-                            <!-- <i class="fa-solid fa-play"></i> -->
-                        </div>
-                        <img src="./img/site/Resize_ThePeak05.jpg.webp" loading="lazy" width="250" height="150" alt="noticia_neymar"  />
-                        <div class="box-videos-icon-play">
-                            <img src="./img/play-button-roxo.svg" loading="lazy" alt="play" width="50" height="50" />
-                        </div>
-                        <h4 style="color: purple;">Titulo</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                <div class="box-videos-card">
+                    <div class="box-videos-minute" style="background: purple;">
+                        3 min
+                        <!-- <i class="fa-solid fa-play"></i> -->
                     </div>
+                    <img src="./img/site/Resize_ThePeak05.jpg.webp" loading="lazy" width="250" height="150" alt="noticia_neymar"  />
+                    <div class="box-videos-icon-play">
+                        <img src="./img/play-button-roxo.svg" loading="lazy" alt="play" width="50" height="50" />
+                    </div>
+                    <h4 style="color: purple;">Titulo</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
 
-                    <div class="box-videos-card">
-                        <div class="box-videos-minute" style="background: green;">
-                            3 min
-                            <!-- <i class="fa-solid fa-play"></i> -->
-                        </div>
-                        <img src="./img/site/Resize_ThePeak05.jpg.webp" loading="lazy" width="250" height="150" alt="noticia_neymar"  />
-                        <div class="box-videos-icon-play">
-                            <img src="./img/play-button-verde.svg" loading="lazy" alt="play" width="50" height="50" />
-                        </div>
-                        <h4 style="color: green;">Titulo</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                <div class="box-videos-card">
+                    <div class="box-videos-minute" style="background: green;">
+                        3 min
+                        <!-- <i class="fa-solid fa-play"></i> -->
                     </div>
+                    <img src="./img/site/Resize_ThePeak05.jpg.webp" loading="lazy" width="250" height="150" alt="noticia_neymar"  />
+                    <div class="box-videos-icon-play">
+                        <img src="./img/play-button-verde.svg" loading="lazy" alt="play" width="50" height="50" />
+                    </div>
+                    <h4 style="color: green;">Titulo</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
 
-                    <div class="box-videos-card">
-                        <div class="box-videos-minute" style="background: #5b5bb1;">
-                            3 min
-                            <!-- <i class="fa-solid fa-play"></i> -->
-                        </div>
-                        <img src="./img/site/Resize_ThePeak05.jpg.webp" loading="lazy" width="250" height="150" alt="noticia_neymar"  />
-                        <div class="box-videos-icon-play">
-                            <img src="./img/play-button-azul.svg" loading="lazy" alt="play" width="50" height="50" />
-                        </div>
-                        <h4 style="color: #5555bb;">Titulo</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                <div class="box-videos-card">
+                    <div class="box-videos-minute" style="background: #5b5bb1;">
+                        3 min
+                        <!-- <i class="fa-solid fa-play"></i> -->
                     </div>
+                    <img src="./img/site/Resize_ThePeak05.jpg.webp" loading="lazy" width="250" height="150" alt="noticia_neymar"  />
+                    <div class="box-videos-icon-play">
+                        <img src="./img/play-button-azul.svg" loading="lazy" alt="play" width="50" height="50" />
+                    </div>
+                    <h4 style="color: #5555bb;">Titulo</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                 </div>
             </div>
         </section>

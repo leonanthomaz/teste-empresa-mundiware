@@ -7,14 +7,14 @@ header{
     padding-bottom: 20px;
 }
 
-header .header-left, .header-center, .header-right{
+.header-left, .header-right{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 .header-center{
-    margin-right: 70px;
+    margin-right: 0px;
 }
 
 header .header-left-icon{
@@ -40,6 +40,7 @@ header input{
     padding: 10px;
     border: none;
     box-shadow: 1px 1px 15px -3px rgba(0, 0, 0, 0.68);
+    margin-left: 20%;
 
 }
 
@@ -117,7 +118,6 @@ header input:focus{
     color: #0000ff;
     font-size: 16px;
 }
-
 
 header .header-bell{
     font-size: 18px;

@@ -1,8 +1,15 @@
 .intro{
     display: grid;
     grid-template-rows: auto auto;
-    padding-bottom: 40px;
     border-bottom: 1px solid #cecece;
+    /* border:3px solid #ffa500; */
+    padding-bottom: 5rem;
+}
+
+.intro-left{
+    /* border: 3px solid red; */
+    max-width: 500px;
+    /* display: flex; */
 }
 
 .intro-title h3{
@@ -12,36 +19,26 @@
     border-bottom: 1px solid #cecece;
 }
 
-.intro-left{
-    display: grid;
-    grid-template-rows: auto;
-}
-
-.intro-left-boximg{
-    width: 500px;
-    height: 350px;
-}
-
-.intro-left-boximg img{
-    width: 100%;
+.intro-left img{
     border-radius: 10px;
     margin-top: -10px;
 }
 
-.intro-left img{
-   
-}
-
-.intro .intro-right{
+.intro-right{
     position: absolute;
+    display: grid;
+    grid-template-columns: auto 220px 220px;
+    gap: 5px;
+    flex-direction: row;
     top: 35%;
     right: 0;
     margin-right: 5%;
+    /* border:3px solid green; */
 }
 
-.intro-right-wrapper{
+.intro-right-card-wrapper{
     display: grid;
-    grid-template-columns: auto 230px 230px;
+    grid-template-columns: auto auto;
 }
 
 .intro-right-card{
