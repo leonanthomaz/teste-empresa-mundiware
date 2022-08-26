@@ -54,11 +54,6 @@
         font-size: 80%;
     }
 
-    .body-column-card-left img{
-        max-width: 450px;
-        max-height: 350px;
-    }
-
     /* ********************************* */
 
     .body-center .body-column-card-carrossel{
@@ -232,11 +227,6 @@
     }
 
     /* ********************************* */
-
-    .body-column-card-left img{
-        max-width: 180px;
-        max-height: 130px;
-    }
 
 
     /* Carrossel - Aside */
