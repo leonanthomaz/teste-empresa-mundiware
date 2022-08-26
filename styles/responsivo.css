@@ -8,9 +8,8 @@
         flex-direction: column;
     }
 
-    .intro-left img{
-        width: 450px;
-        height: 300px;
+    .intro-left{
+      
     }
  
     .intro-right{
@@ -161,11 +160,6 @@
         width: 350px;
         height: 250px;
     } */
-
-    .intro-left img{
-        width: 350px;
-        height: 250px;
-    }
 
     .intro-right{
         /* border: 2px solid red; */
