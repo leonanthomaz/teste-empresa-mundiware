@@ -7,6 +7,11 @@
     .intro{
         flex-direction: column;
     }
+
+    .intro-left img{
+        width: 450px;
+        height: 300px;
+    }
  
     .intro-right{
         position: initial;
@@ -158,7 +163,8 @@
     } */
 
     .intro-left img{
-        width: 100%;
+        width: 350px;
+        height: 250px;
     }
 
     .intro-right{
