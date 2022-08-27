@@ -47,11 +47,11 @@
         width: 80%;
     }
 
-    .intro-left img{
+    .intro-left-img-main{
+        width: 350px;
+        height: 250px;
         margin-top: 10px;
     }
-
-    .intro-right-carrossel{}
 
     .intro-right-carrossel-wrapper{
         display: flex;
@@ -233,7 +233,7 @@
         flex-direction: column;
     }
 
-    .intro-left img{
+    .intro-left-img-main{
         padding-bottom: 20px;
     }
 
