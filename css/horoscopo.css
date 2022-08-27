@@ -15,7 +15,7 @@
 .info .horoscopo h4{
     padding-bottom: 10px;
     padding-top: 10px;
-    color: #5e5eff;
+    color: #2929b4;
 }
 
 .info .horoscopo p{
@@ -106,7 +106,7 @@
 }
 
 .mega-item{
-    border: 2px solid green;
+    border: 2px solid #045204;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -115,5 +115,5 @@
 
 .mega-number{
     margin-top: 8px;
-    color: green;
+    color: #045204;
 }
