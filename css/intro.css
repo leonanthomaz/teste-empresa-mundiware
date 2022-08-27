@@ -23,8 +23,9 @@
     border-radius: 10px;
 }
 
-/* .intro-left-img-main img{
-} */
+.splideWrapper{
+    border: 2px solid #b92543;
+}
 
 .intro-right-carrossel{
     max-width: 300px;
