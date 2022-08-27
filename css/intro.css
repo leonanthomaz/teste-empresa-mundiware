@@ -67,12 +67,12 @@
     height: 280px;
     background: #c72143;
     border-radius: 10px;
-    padding: 15px;
-    margin-top: 10px;
+    /* padding: 15px;
+    margin-top: 10px; */
 }
 
 .intro-right-carrossel-wrapper{
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .intro-right-carrossel-wrapper span{
@@ -90,26 +90,4 @@
 .intro-right-carrossel-wrapper p{
     color: #eeeeee;
     font-size: 14px;
-}
-
-
-
-.intro-right-carrossel-wrapper-footer{
-    float: right;
-    margin-top: 30px;
-}
-
-.btn-enable{
-    color: white;
-    width: 30px;
-    margin: 5px;
-    margin-top: 25px;
-}
-
-.btn-desable{
-    color: gray;
-    width: 30px;
-    margin: 10px;
-    margin-top: 20px;
-    border-bottom: 2px solid gray;
 }

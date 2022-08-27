@@ -18,23 +18,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         
     <!-- Estilos -->
-    <link rel="stylesheet" type="text/css" href="./styles/global.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/header.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/footer.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/topbar.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/body_center.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/intro.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/body-aside.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/videos.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/horoscopo.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/info.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/responsivo.css" />
+    <link rel="stylesheet" type="text/css" href="./css/global.css" />
+    <link rel="stylesheet" type="text/css" href="./css/header.css" />
+    <link rel="stylesheet" type="text/css" href="./css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="./css/topbar.css" />
+    <link rel="stylesheet" type="text/css" href="./css/body_center.css" />
+    <link rel="stylesheet" type="text/css" href="./css/intro.css" />
+    <link rel="stylesheet" type="text/css" href="./css/body-aside.css" />
+    <link rel="stylesheet" type="text/css" href="./css/videos.css" />
+    <link rel="stylesheet" type="text/css" href="./css/horoscopo.css" />
+    <link rel="stylesheet" type="text/css" href="./css/info.css" />
+    <link rel="stylesheet" type="text/css" href="./css/responsivo.css" />
 
     <!-- Link to the file hosted on your server, -->
     <link rel="stylesheet" href="./css/splide.min.css">
+    <link rel="stylesheet" href="./css/splide-core.min.css">
+    <link rel="stylesheet" href="./css/themes/splide-sea-green.min.css">
 
-    <!-- or link to the CDN -->
-    <link rel="stylesheet" href="url-to-cdn/splide.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/themes/splide-sea-green.min.css">
 
 </head>
 <body>
@@ -45,7 +46,7 @@
             <div class="header-left">
                 <div class="header-left-icon">
                     <div class="icon">
-                        <img src="./img/menu-svgrepo-com.svg" loading="lazy" alt="menu"  width="15" height="15" />
+                        <img src="./img/icons/icons/menu-svgrepo-com.svg" loading="lazy" alt="menu"  width="15" height="15" />
                     </div>
                     <span> menu</span>
                 </div>
@@ -61,7 +62,7 @@
 
             <!-- Header Centro -->
             <div class="header-center">
-                <img src="./img/circle-svgrepo-com.svg" width="50" height="50" loading="lazy" alt="logo_principal" />
+                <img src="./img/icons/circle-svgrepo-com.svg" width="50" height="50" loading="lazy" alt="logo_principal" />
             </div>
 
             <!-- Header Direita -->
@@ -71,7 +72,7 @@
                     <div class="header-weather-box">
                         <div class="header-weather-left">
                             <div class="header-weather-icon">
-                                <img src="./img/cloud-rain-solid-svgrepo-com.svg" width="35" height="35" loading="lazy" alt="nuvem_com_chuva"/>
+                                <img src="./img/icons/cloud-rain-solid-svgrepo-com.svg" width="35" height="35" loading="lazy" alt="nuvem_com_chuva"/>
                             </div>
                         </div>  
                         <div class="header-weather-right">
@@ -88,12 +89,12 @@
 
                 <!-- Header Sino -->
                 <div class="header-bell">
-                    <img src="./img/bell-svgrepo-com.svg" loading="lazy" alt="nuvem_com_chuva"  width="25" height="25" />
+                    <img src="./img/icons/bell-svgrepo-com.svg" loading="lazy" alt="nuvem_com_chuva"  width="25" height="25" />
                     <div class="ball-red"></div>
                 </div>
 
                 <div class="arrow">
-                    <img src="./img/arrow-down-svgrepo-com.svg" loading="lazy" alt="seta_para_baixo"  width="24" height="24" />
+                    <img src="./img/icons/arrow-down-svgrepo-com.svg" loading="lazy" alt="seta_para_baixo"  width="24" height="24" />
                 </div>
                 <div class="icon-user">
                     <img src="https://t.ctcdn.com.br/vvAWVFlVVp6xV4660JzXPkIpxO4=/400x400/smart/i490769.jpeg" loading="lazy" alt="usuario" width="50" height="50"/>
@@ -138,68 +139,21 @@
             <div class="intro-right">
                 <div class="intro-right-carrossel">
                     <div class="intro-right-carrossel-wrapper">
-
-                        <section class="splide" aria-label="Splide Basic HTML Example">
-                            <div class="splide__track">
-                                  <ul class="splide__list">
-
-                                      <li class="splide__slide">
-                                        <span>Destaque</span>
-                                        <h1>Titulo do destaque principal</h1>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                                        </p>
-                                        <div class="intro-right-carrossel-wrapper-footer">
-                                            <button class="btn-enable" aria-label="btn1"> </button>
-                                            <button class="btn-desable" aria-label="btn2"> </button>
-                                        </div>
-                                      </li>
-                                      <li class="splide__slide">
-                                        <span>Destaque2</span>
-                                        <h1>Lorem Ipsum is simply dummy text of the printing</h1>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                                        </p>
-                                        <div class="intro-right-carrossel-wrapper-footer">
-                                            <button class="btn-enable" aria-label="btn1"> </button>
-                                            <button class="btn-desable" aria-label="btn2" id="slider1"> </button>
-                                        </div>
-                                      </li>
-                                      <li class="splide__slide">
-                                        <span>Destaque3</span>
-                                        <h1>Titulo do terceiro destaque</h1>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                                        </p>
-                                        <div class="intro-right-carrossel-wrapper-footer">
-                                            <button class="btn-enable" aria-label="btn1"> </button>
-                                            <button class="btn-desable" aria-label="btn2"> </button>
-                                        </div>
-                                      </li>
-                                      
-                                  </ul>
-                            </div>
-                          </section>
-
-                          <script>
-                            document.addEventListener( 'DOMContentLoaded', function() {
-                              var splide = new Splide( '.splide' );
-                              splide.mount();
-                            } );
-
-                            new Splide( '#slider1' ).mount();
-
-                            new Splide( '#slider2' ).mount();
-
-                            new Splide( '#slider3' ).mount();
-
-
-                            var elms = document.getElementsByClassName( 'splide' );
-
-                            for ( var i = 0; i < elms.length; i++ ) {
-                            new Splide( elms[ i ] ).mount();
-                            }
-                          </script>
+                        <div class="splide">
+                            <section class="splide__slide">
+                                <div class="splide__track">
+                                    <ul class="splide__list">
+                                        <li class="splide__slide">
+                                            <span>Destaque</span>
+                                            <h1>Titulo do destaque principal</h1>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div> 
                     </div>
                 </div>
                 <div class="intro-right-card-wrapper">
@@ -472,7 +426,7 @@
                     </div>
                     <img src="./img/site/Resize_ThePeak05.jpg.webp" loading="lazy" width="250" height="150" alt="noticia_neymar"  />
                     <div class="box-videos-icon-play">
-                        <img src="./img/play-button-azul.svg" loading="lazy" alt="play" width="50" height="50" />
+                        <img src="./img/icons/play-button-azul.svg" loading="lazy" alt="play" width="50" height="50" />
                     </div>
                     <h4 style="color: #5555bb;">Titulo</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
@@ -485,7 +439,7 @@
                     </div>
                     <img src="./img/site/Resize_ThePeak05.jpg.webp" loading="lazy" width="250" height="150" alt="noticia_neymar"  />
                     <div class="box-videos-icon-play">
-                        <img src="./img/play-button-roxo.svg" loading="lazy" alt="play" width="50" height="50" />
+                        <img src="./img/icons/play-button-roxo.svg" loading="lazy" alt="play" width="50" height="50" />
                     </div>
                     <h4 style="color: purple;">Titulo</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
@@ -498,7 +452,7 @@
                     </div>
                     <img src="./img/site/Resize_ThePeak05.jpg.webp" loading="lazy" width="250" height="150" alt="noticia_neymar"  />
                     <div class="box-videos-icon-play">
-                        <img src="./img/play-button-verde.svg" loading="lazy" alt="play" width="50" height="50" />
+                        <img src="./img/icons/play-button-verde.svg" loading="lazy" alt="play" width="50" height="50" />
                     </div>
                     <h4 style="color: green;">Titulo</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
@@ -511,7 +465,7 @@
                     </div>
                     <img src="./img/site/Resize_ThePeak05.jpg.webp" loading="lazy" width="250" height="150" alt="noticia_neymar"  />
                     <div class="box-videos-icon-play">
-                        <img src="./img/play-button-azul.svg" loading="lazy" alt="play" width="50" height="50" />
+                        <img src="./img/icons/play-button-azul.svg" loading="lazy" alt="play" width="50" height="50" />
                     </div>
                     <h4 style="color: #5555bb;">Titulo</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
@@ -605,7 +559,7 @@
                         <div class="info-up">
                             <div class="horoscopo">
                                 <h3>HORÓSCOPO</h3>
-                                <img src="./img/astrology-horoscope-svgrepo-com.svg" width="50" height="50" loading="lazy" alt="icone_horoscopo" />
+                                <img src="./img/icons/astrology-horoscope-svgrepo-com.svg" width="50" height="50" loading="lazy" alt="icone_horoscopo" />
                                 <h4>Signo</h4>
                                 <p>Lorem Ipsum comes from sections of "de Finibus Bonorum et Malorum" comes from sections</p>
                             </div>
@@ -630,7 +584,7 @@
                             </div>
                             <div class="mega">
                                 <h3>MEGA-SENA</h3>
-                                <img src="./img/four-leaf-clover-svgrepo-com.svg" width="50" height="50" loading="lazy" alt="icone_mega_sena" />
+                                <img src="./img/icons/four-leaf-clover-svgrepo-com.svg" width="50" height="50" loading="lazy" alt="icone_mega_sena" />
                                 <div class="mega-grid">
                                     <div class="mega-item">
                                         <div class="mega-number">30</div>
@@ -766,6 +720,8 @@
             <a href="#">Imprensa</a>
         </div>
     </footer>
+
+    <script src="./js/splide.js"></script>
     <script src="./js/splide.min.js"></script>
 </body>
 </html>
