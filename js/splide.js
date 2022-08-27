@@ -7,5 +7,7 @@ document.addEventListener( 'DOMContentLoaded', () => {
         autoplay: true,
         // wheel: true.
         // right: true,
+        // padding: '1rem'
+        
     }).mount()
 } );

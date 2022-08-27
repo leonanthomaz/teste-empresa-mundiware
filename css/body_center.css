@@ -1,7 +1,8 @@
 .body-center{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #cecece;
 }
 
 .body-center-reverse{

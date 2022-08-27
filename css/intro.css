@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: auto 450px;
     border-bottom: 1px solid #cecece;
+    padding-bottom: 20px;
 }
 
 .intro-title h3{
@@ -19,7 +20,7 @@
 
 .intro-right-carrossel{
     max-width: 300px;
-    height: 280px;
+    height: auto;
     background: #c72143;
     border-radius: 10px;
     position: absolute;
@@ -36,6 +37,7 @@
 .intro-right-carrossel-wrapper span{
     color: #eeeeee;
     font-size: 15px;
+    margin-top: 10px;
 }
 
 .intro-right-carrossel-wrapper h1{
@@ -43,11 +45,14 @@
     padding-bottom: 10px; */
     color: white;
     font-size: 20px;
+    margin-top: 10px;
 }
 
 .intro-right-carrossel-wrapper p{
     color: #eeeeee;
-    font-size: 14px;
+    font-size: 13px;
+    padding-bottom: 3rem;
+    margin-top: 10px;
 }
 
 .intro-right{
