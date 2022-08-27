@@ -18,9 +18,13 @@
     position: relative;
 }
 
-.intro-left img{
+
+.intro-left-img-main{
     border-radius: 10px;
 }
+
+/* .intro-left-img-main img{
+} */
 
 .intro-right-carrossel{
     max-width: 300px;
