@@ -51,10 +51,11 @@
         margin-top: 10px;
     }
 
+    .intro-right-carrossel{}
+
     .intro-right-carrossel-wrapper{
         display: flex;
         flex-direction: column;
-        margin-top: 0px;
     }
 
     /* Intro right */
@@ -232,6 +233,9 @@
         flex-direction: column;
     }
 
+    .intro-left img{
+        padding-bottom: 20px;
+    }
 
     .intro-right-carrossel{
        position: static;

@@ -18,6 +18,10 @@
     position: relative;
 }
 
+.intro-left img{
+    border-radius: 10px;
+}
+
 .intro-right-carrossel{
     max-width: 300px;
     height: auto;
