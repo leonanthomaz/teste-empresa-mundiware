@@ -60,6 +60,7 @@
     /* Intro right */
     .intro-right{
         flex: 5.5;
+        margin-top: 40px;
     }
     
     .intro-right img{
@@ -245,6 +246,15 @@
     }
 }
 
-@media (max-width: 450px){
-    
+@media (max-width: 650px){
+    .body-column-card-left img{
+        width: 200px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 650px){
+    .body-column-card-left img{
+        width: 100%;
+    }
 }

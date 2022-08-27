@@ -21,11 +21,11 @@
 .intro-right-carrossel{
     max-width: 300px;
     height: auto;
-    background: #c72143;
+    background: #ad223e;
     border-radius: 10px;
     position: absolute;
     right: 0;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .intro-right-carrossel-wrapper{
@@ -35,7 +35,7 @@
 }
 
 .intro-right-carrossel-wrapper span{
-    color: #eeeeee;
+    color: #ffffff;
     font-size: 15px;
     margin-top: 10px;
 }
@@ -43,13 +43,13 @@
 .intro-right-carrossel-wrapper h1{
     /* padding-top: 10px;
     padding-bottom: 10px; */
-    color: white;
+    color: #ffffff;
     font-size: 20px;
     margin-top: 10px;
 }
 
 .intro-right-carrossel-wrapper p{
-    color: #eeeeee;
+    color: #ffffff;
     font-size: 13px;
     padding-bottom: 3rem;
     margin-top: 10px;
@@ -61,6 +61,7 @@
     justify-content: flex-end;
     gap: 5px;
     flex-direction: row;
+    margin-top: 10px;
 }
 
 .intro-left img{
