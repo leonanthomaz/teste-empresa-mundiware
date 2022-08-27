@@ -1,36 +1,43 @@
-
 @media (max-width: 1000px){
 
     /* ********************************* */
-
     /* Intro */
     .intro{
+        display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    /* Intro left */
+    .intro-left{
+        flex: 2.5;
     }
 
     .intro-left{
-      
+        display: grid;
+        grid-template-columns: auto 120px;
+        align-items: center;
+        width: 80%;
     }
- 
+
+    .intro-left img{
+        margin-top: 10px;
+    }
+
+    .intro-right-carrossel-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    /* Intro right */
     .intro-right{
-        position: initial;
+        flex: 5.5;
     }
-
-    /*Intro esquerda */
     
-
-    /*Intro direita */
-    
-
     .intro-right img{
         width: 150px;
         height: 150px;
-    }
-
-    /*Carrossel - Intro */
-    .intro-right-carrossel{
-        width: auto;
-        margin: auto;
     }
 
     /* ********************************* */
@@ -93,44 +100,39 @@
 
 @media (max-width: 860px){
 
+    /* ********************************* */
+    /*Header  */
     header{
         display: flex;
         justify-content: space-between;
     }
-
-    /*Header Tempo */
     header input, .header-weather{
         display: none;
     }
-
-    /*Header Logo */
     .header-center{
-        /* border: 2px solid red; */
         margin-right: 0px;
         margin-left: 20px;
-    }
-
-    .header-right{
-       /* display: none; */
-       /* border: 2px solid red; */
     }
      
     header .header-right .icon-user img{
         width: 40px;
         height: 40px;
     }
-
-    /*Header Sino */
     header .header-bell img{
         display: none;
         width: 20px;
         height: 20px;
     }
-
     header .header-bell .ball-red{
         display: none;
     }
 
+
+    /* ********************************* */
+    /*INTRO */
+    
+
+    /* ********************************* */
     /*Topbar */
     .topbar ul{
         margin: 10px;
@@ -139,7 +141,6 @@
         justify-content: center;
         flex-wrap: wrap;
     }
-
     .topbar ul li{
         margin: 10px;
         flex-wrap: nowrap;
@@ -148,77 +149,40 @@
     } 
 
     /* ********************************* */
-
-    /* Intro Left */
-
-    .intro-left{
-        margin: auto;
-        margin-top: 20px;
-    }
-
-    /* .intro-left img{
-        width: 350px;
-        height: 250px;
-    } */
-
-    .intro-right{
-        /* border: 2px solid red; */
-        position: initial;
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        width: auto;
-    }
-
-    .intro-right-carrossel-wrapper{
-        display: flex;
-        flex-direction: column;
-    }
-
+    /* INTRO */
     .intro-right-card{
         padding: 5px;
         width: 180px;
-        /* border: 2px solid red; */
     }
-
     .intro-right-card img{
         margin: auto;
     }
-
     .intro-right-card span{
        margin: 5px;
     }
-
     .intro-right-card h2{
         font-size: 16px;
         margin: 5px;
     }
-
     .intro-right img{
         width: 150px;
         height: 150px;
     }
-
-    /*Carrossel Tempo */
+    /*Carrossel*/
     .intro-right-carrossel{
-        width: 100%;
+        width: 70%;
         height: 100%;
-        margin-top: 10px;
         margin: auto;
-        margin-top: 10px;
     }
-
     .intro-right-wrapper{
-        /* border: 2px solid red; */
         display: flex;
         flex-direction: column;
         width: auto;
-        
     }
+
 
     /* ********************************* */
     /* Centro */
-
     .body-column-card{
         /* border: 2px solid red; */
         /* font-size: 80%; */
@@ -230,13 +194,13 @@
     }
 
     /* ********************************* */
-
-
     /* Carrossel - Aside */
     .body-center .body-column-card-carrossel{
         width: 80%;
         height: 300px;
     }
+
+
 
     /* ********************************* */
     /* Carrossel - Videos */
@@ -244,13 +208,12 @@
         display: flex;
         flex-direction: column;
     }
-
     .box-videos-minute{
         right: 20%;
     }
 
     /* ********************************* */
-
+    /* INFO - Videos */
     .info-down{
         display: flex;
         flex-direction: column;
@@ -258,6 +221,30 @@
     }
 }
 
+@media (max-width: 760px){
+
+    .intro{
+        display: flex;   
+    }
+
+    .intro-left{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .intro-right-carrossel{
+       position: static;
+       width: auto;
+       height: auto;
+    }
+
+    .intro-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 @media (max-width: 450px){
     

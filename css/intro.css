@@ -1,13 +1,7 @@
 .intro{
     display: grid;
-    grid-template-rows: auto auto;
+    grid-template-columns: auto 450px;
     border-bottom: 1px solid #cecece;
-    /* border:3px solid #ffa500; */
-    padding-bottom: 5rem;
-}
-
-.intro-left{
-    /* border: 3px solid red; */
 }
 
 .intro-title h3{
@@ -17,26 +11,62 @@
     border-bottom: 1px solid #cecece;
 }
 
+.intro-left{
+    display: grid;
+    grid-template-rows: auto auto;
+    position: relative;
+}
+
+.intro-right-carrossel{
+    max-width: 300px;
+    height: 280px;
+    background: #c72143;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+}
+
+.intro-right-carrossel-wrapper{
+    /* padding: 10px; */
+    /* border: 3px solid yellow; */
+
+}
+
+.intro-right-carrossel-wrapper span{
+    color: #eeeeee;
+    font-size: 15px;
+}
+
+.intro-right-carrossel-wrapper h1{
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    color: white;
+    font-size: 20px;
+}
+
+.intro-right-carrossel-wrapper p{
+    color: #eeeeee;
+    font-size: 14px;
+}
+
+.intro-right{
+    display: grid;
+    grid-template-columns: 220px 220px;
+    justify-content: flex-end;
+    gap: 5px;
+    flex-direction: row;
+}
+
 .intro-left img{
     border-radius: 10px;
     margin-top: -10px;
 }
 
-.intro-right{
-    position: absolute;
-    display: grid;
-    grid-template-columns: auto 220px 220px;
-    gap: 5px;
-    flex-direction: row;
-    top: 35%;
-    right: 0;
-    margin-right: 5%;
-    /* border:3px solid green; */
-}
-
 .intro-right-card-wrapper{
     display: grid;
     grid-template-columns: auto auto;
+    position: relative;
 }
 
 .intro-right-card{
@@ -62,32 +92,3 @@
     color: #c72143;
 }
 
-.intro-right-carrossel{
-    max-width: 350px;
-    height: 280px;
-    background: #c72143;
-    border-radius: 10px;
-    /* padding: 15px;
-    margin-top: 10px; */
-}
-
-.intro-right-carrossel-wrapper{
-    /* padding: 10px; */
-}
-
-.intro-right-carrossel-wrapper span{
-    color: #eeeeee;
-    font-size: 15px;
-}
-
-.intro-right-carrossel-wrapper h1{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-size: 20px;
-}
-
-.intro-right-carrossel-wrapper p{
-    color: #eeeeee;
-    font-size: 14px;
-}
