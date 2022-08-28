@@ -20,6 +20,8 @@ document.addEventListener( 'DOMContentLoaded', () => {
         autoplay: true,
         // wheel: true.
         // right: true,
+        // padding: 0
+        margin: 0
     }).mount()
 
     const splide3 = new Splide ('#splide2', {
