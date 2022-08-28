@@ -255,6 +255,17 @@
     .body-column-card-left{
        margin: auto;
     }
+
+    .body-aside-up{
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body-aside-img1, .body-aside-img2, .body-aside-img3{
+        width:  100%;
+        height: 300px !important;
+    }
 }
 
 @media (max-width: 450px){
