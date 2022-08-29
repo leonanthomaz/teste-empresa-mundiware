@@ -80,26 +80,19 @@
     padding: 15px;
 }
 
-.body-aside-imgtext, .body-aside-imgtextImg3 span, h3, p, h5{
+.body-aside-imgtext, .body-aside-imgtextImg3 span, h3, p, h4{
    color: white;
    margin-bottom: 5px;
    margin-top: 10px;
 }
 
-/* .body-aside-imgtext, .body-aside-imgtextImg3 h3{
-    color: white;
-    margin-bottom: 5px;
+.body-aside-imgtext, .body-aside-imgtextImg1, .body-aside-imgtextImg2 h3{
+    font-size: 50px;
  }
 
- .body-aside-imgtext, .body-aside-imgtextImg3 p{
-    color: white;
-    margin-bottom: 5px;
+.body-aside-imgtext, .body-aside-imgtextImg3 p{
+    font-size: 12px;
  }
-
- .body-aside-imgtextImg3 h5{
-    color: white;
-    margin-bottom: 5px;
- } */
 
 .body-aside-img2{
     background-image: url('https://www.opresente.com.br/wp-content/uploads/2021/07/carreta-palco-mcr_-foto-divulgacao.jpg.webp');
