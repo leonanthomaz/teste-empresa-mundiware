@@ -264,6 +264,12 @@
     .body-column-card-left img{
         width: auto;
     }
+    
+    .body-aside-images{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
 
     .body-aside-up{
         display: flex;
@@ -272,10 +278,7 @@
 
     .body-aside-down{
         display: block;
-    }
-
-    .body-aside-down img{
-        border: 2px solid red;
+        width: 100%;
     }
 
     .body-aside-img1, .body-aside-img2, .body-aside-img3{
