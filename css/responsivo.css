@@ -90,21 +90,12 @@
 
     /* ********************************* */
 
-    .body-aside{
-        /* border: 2px solid red; */
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; */
-        /* flex: 2.5;
-        padding: 10px; */
-    }
-
-    /* .body-center-reverse{
-        border: 2px solid red;
-    } */
 
     /* ********************************* */
+
+    .title-videos{
+        font-size: 80%;
+    }
 
     .body-videos{
         display: grid;
@@ -128,11 +119,21 @@
     }
 
     /* ********************************* */
-
     .info-down{
         /* border: 2px solid red; */
         justify-content: space-around;
 
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-center{
+        margin-left: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 

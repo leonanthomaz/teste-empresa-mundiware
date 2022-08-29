@@ -130,19 +130,8 @@
 .body-column-card-carrossel h3{
     color: white;
     margin-top: 7px;
+    padding-bottom: 25px;
 }
-
-.body-column-card-carrossel-btn{
-    float: right;
-    margin-right: 20px;
-}
-
-.body-column-card-carrossel-btn button{
-    color: white;
-    width: 30px;
-    margin: 7px;
-}
-
 
 
 

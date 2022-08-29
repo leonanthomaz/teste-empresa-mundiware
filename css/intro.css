@@ -23,13 +23,9 @@
     border-radius: 10px;
 }
 
-/* .splideWrapper{
-    border: 2px solid #b92543;
-} */
 
 .intro-right-carrossel{
-    max-width: 300px;
-    height: auto;
+   
     background: #b92543;
     border-radius: 10px;
     position: absolute;
@@ -40,6 +36,9 @@
 .intro-right-carrossel-wrapper{
     /* padding: 10px; */
     /* border: 3px solid yellow; */
+    max-width: 300px;
+    min-height: 300px;
+    padding: 10px;
 
 }
 
@@ -61,7 +60,7 @@
     color: #ffffff;
     font-size: 13px;
     padding-bottom: 3rem;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .intro-right{
