@@ -66,10 +66,7 @@
         margin-top: 40px;
     }
 
-    
-
     /* ********************************* */
-
     /* Centro */
     .body-center{
         display: flex;
@@ -87,11 +84,24 @@
         font-size: 80%;
     }
 
+    .body-column-card-reverse{
+        font-size: 80%;
+    }
+
     /* ********************************* */
 
-    /* .body-center .body-column-card-carrossel{
-        width: 80%;
-        height: 300px;
+    .body-aside{
+        /* border: 2px solid red; */
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        /* flex: 2.5;
+        padding: 10px; */
+    }
+
+    /* .body-center-reverse{
+        border: 2px solid red;
     } */
 
     /* ********************************* */
@@ -194,13 +204,6 @@
     }
 
     /* ********************************* */
-    /* Carrossel - Aside */
-    /* .body-center .body-column-card-carrossel{
-        width: 80%;
-        height: 300px;
-    } */
-
-    /* ********************************* */
     /* Carrossel - Videos */
     .body-videos{
         display: flex;
@@ -249,6 +252,19 @@
         flex-direction: column;
     }
 
+    .body-column-card-reverse{
+        flex-direction: column;
+    }
+
+    .body-column-card-left{
+        display: flex;
+        justify-content: center;
+    }
+
+    .body-column-card-left img{
+        width: auto;
+    }
+
     .body-aside-up{
         display: flex;
         flex-direction: column;
@@ -256,6 +272,10 @@
 
     .body-aside-down{
         display: block;
+    }
+
+    .body-aside-down img{
+        border: 2px solid red;
     }
 
     .body-aside-img1, .body-aside-img2, .body-aside-img3{

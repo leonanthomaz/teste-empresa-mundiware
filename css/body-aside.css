@@ -11,14 +11,22 @@
 
 .body-aside-up{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 200px 200px;
     gap: 5px;
     justify-content: center;
+}
+
+.body-column-aside-down{
+    flex: 3.5;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 5px;
 }
 
 .body-aside-down{
     display: grid;
     grid-template-columns: auto;
+    margin: auto;
     align-items: center;
     justify-content: center;
 }
@@ -47,12 +55,51 @@
 
 .body-aside-img1 .body-aside-imgtext{
     position: absolute;
-    margin-top: 180px;
-    color: yellow;
+    margin-top: 190px;
     z-index: 9999;
     width: 100%;
     height: 50%;
+    padding: 15px;
 }
+
+.body-aside-img2 .body-aside-imgtext{
+    position: absolute;
+    margin-top: 190px;
+    z-index: 9999;
+    width: 100%;
+    height: 50%;
+    padding: 15px;
+}
+
+.body-aside-imgtextImg3{
+    position: absolute;
+    margin-top: 150px;
+    z-index: 9999;
+    width: 100%;
+    height: 50%;
+    padding: 15px;
+}
+
+.body-aside-imgtext, .body-aside-imgtextImg3 span, h3, p, h5{
+   color: white;
+   margin-bottom: 5px;
+   margin-top: 10px;
+}
+
+/* .body-aside-imgtext, .body-aside-imgtextImg3 h3{
+    color: white;
+    margin-bottom: 5px;
+ }
+
+ .body-aside-imgtext, .body-aside-imgtextImg3 p{
+    color: white;
+    margin-bottom: 5px;
+ }
+
+ .body-aside-imgtextImg3 h5{
+    color: white;
+    margin-bottom: 5px;
+ } */
 
 .body-aside-img2{
     background-image: url('https://www.opresente.com.br/wp-content/uploads/2021/07/carreta-palco-mcr_-foto-divulgacao.jpg.webp');
@@ -77,15 +124,6 @@
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
 }
 
-.body-aside-img2 .body-aside-imgtext{
-    position: absolute;
-    margin-top: 180px;
-    color: yellow;
-    z-index: 9999;
-    width: 100%;
-    height: 50%;
-}
-
 .body-aside-img3{
     background-image: url('https://blog.shopfisio.com.br/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2013/07/futebol2-1746x1080.jpg.webp');
     background-size: cover;
@@ -107,15 +145,6 @@
     background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
     background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
-}
-
-.body-aside-img3 .body-aside-imgtext{
-    position: absolute;
-    margin-top: 180px;
-    color: yellow;
-    z-index: 9999;
-    width: 100%;
-    height: 50%;
 }
 
 .body-aside-text{
